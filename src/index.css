@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/*Global Styles*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  cursor: pointer;
+  background: linear-gradient(135deg, white 0%, whitesmoke 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #2c3e50;
+}
